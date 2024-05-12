@@ -22,9 +22,7 @@ import com.example.mytodo.modals.MyToDoAppDataContainer
 
 class MyToDoApplication : Application() {
 
-    /**
-     * AppContainer instance used by the rest of classes to obtain dependencies
-     */
+
     lateinit var container: MyToDoAppContainer
 
     override fun onCreate() {
